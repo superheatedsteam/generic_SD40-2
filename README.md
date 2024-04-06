@@ -20,9 +20,9 @@
 
 This model has been used as a test bed for different modelling / texturing techniques. This model has dimensional inaccuracies, it is missing details, it is not optimised and it is not best practice. However, it does export from Blender and work in Open Rails v1.5.1 on my computer. 
 
-I have other commitments and projects that demand my time leaving little for this work.  Rather than letting them waste away on my computer, these models are being being made public on github as they may be useful to others.  Use them, abuse them, rob them for parts.  
+I have other commitments and projects that demand my time leaving little for this work.  Rather than letting them waste away on my computer, these models are being being made public on github as they may be useful to others.  Use them, abuse them, rob them for parts and redistribute as you desire.  
 
-The SOURCE folder contains Blender v3.2.2 and GIMP v2.10 source files for the locomotive and the gauges that were used for rendering textures.  
+The SOURCE folder contains Blender v3.6.0 and GIMP v2.10 source files for the locomotive and the gauges that were used for rendering textures.  
 
 The drawings were kindly contributed by Nathan and are included in the DRAWINGS folder.
 
@@ -30,7 +30,7 @@ The 3D cab view has 2 seat options. Digital or analog speedometer.  With or with
 
 These different combinations are quick to configure and export from Blender by renaming collections as well as moving objects within collections.
 
-Currently the Blender file is configured to export the 3D cabview.  To export the external model, rename the collection called MAIN to MAIN_3DCABVIEW or whatever makes sense to you.  Then rename the MAIN_SD40-2_EXTERNAL collection to MAIN and export from Blender.
+Currently the Blender file is configured to export just the 3D cabview without external body.  To export the external model, rename the collection called MAIN to MAIN_3DCABVIEW or whatever makes sense to you.  Then rename the MAIN_SD40-2_EXTERNAL collection to MAIN and export from Blender.
 
 In addition to the 'normal' locomotive controls, the 3D cab view has animated front door, driver's windows, wipers, alerter and some switches. 
 
@@ -40,7 +40,7 @@ There a many issues and I keep finding new ones.
 
 The 3D cab view and external model where not built together.  When I merged them recently into a single Blender file for this project, I found that modelling by eye is not as accurate as modelling to known dimensions, which I did not have at the time. 
 
-The textures, texture layout and UV unwrap is a quick and dirty hack, is not well thought out and needs a complete overhaul.  This probably not a bad thing as the geometry or needs to be accurate first, then new textures can be rendered and unwrapped correctly.
+The textures, texture layout and UV unwrap is a quick and dirty hack, is not well thought out and needs a complete overhaul.  This probably not a bad thing as the geometry or needs to be accurate first, then new textures can be rendered or baked once unwrapped correctly.
 
 Objects like chains, handrail ends, bogie and under frame details are missing.
 
@@ -67,3 +67,5 @@ The CC0 1.0 Universal licence ensures this is for the benefit of all.
 Cheers,
 
 Marek.
+
+Contact superheatedsteam at https://www.elvastower.com, https://www.trainsim.com forums or @yahoo.com.
