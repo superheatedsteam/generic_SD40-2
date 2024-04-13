@@ -30,9 +30,11 @@ The 3D cab view has 2 seat options. Digital or analog speedometer.  With or with
 
 These different combinations are quick to configure and export from Blender by renaming collections as well as moving objects within collections.
 
-Currently the Blender file is configured to export just the 3D cabview without external body.  To export the external model, rename the collection called MAIN to MAIN_3DCABVIEW or whatever makes sense to you.  Then rename the MAIN_SD40-2_EXTERNAL collection to MAIN and export from Blender.
+Currently the Blender file is configured to export just the 3D cabview without external body. To export the external model, rename the collection called MAIN to MAIN_3DCABVIEW or whatever makes sense to you.  Then rename the MAIN_SD40-2_EXTERNAL collection to MAIN and export from Blender.
 
 In addition to the 'normal' locomotive controls, the 3D cab view has animated front door, driver's windows, wipers, alerter and some switches. 
+
+An animated flow gauge has been added that currently only works in the experimental version of OR.  In OR check the Options>General>Brake pipe charging rate (PSI/s) value.  If this value is to low, a full deflection of the needle will not occur.  A value of 135 gave reasonable results.  You will have to experiment with this value and possibly fine tune with the scale values for the ORTS_AIR_FLOW_METER gauge in the CVF file for the cab view.
 
 ### Known issues and general information
 
@@ -68,4 +70,4 @@ Cheers,
 
 Marek.
 
-Contact superheatedsteam at https://www.elvastower.com, https://www.trainsim.com forums or @yahoo.com.
+Contact superheatedsteam at https://www.elvastower.com, https://www.trainsim.com forums or @yahoo.com if you wish to discuss any of the above further.
